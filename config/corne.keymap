@@ -13,9 +13,7 @@
 #include <dt-bindings/zmk/pointing.h>
 #include <dt-bindings/zmk/rgb.h>
 
-&led_strip {
-    chain-length = <27>;
-};
+&led_strip { chain-length = <27>; };
 
 / {
     combos {
@@ -79,7 +77,7 @@
             bindings = <
 &trans  &kp F1           &kp F2       &kp F3         &kp F4             &kp F5          &rgb_ug RGB_HUI  &rgb_ug RGB_HUD  &rgb_ug RGB_SPI  &rgb_ug RGB_SPD  &rgb_ug RGB_TOG  &trans
 &trans  &kp F6           &kp F7       &kp F8         &kp F9             &kp F10         &rgb_ug RGB_SAI  &rgb_ug RGB_SAD  &rgb_ug RGB_EFF  &rgb_ug RGB_EFR  &bl BL_INC       &trans
-&trans  &kp PRINTSCREEN  &kp PAGE_UP  &kp PAGE_DOWN  &ext_power EP_TOG  &out OUT_TOG    &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &bl BL_TOG       &bl BL_CYCLE     &bl BL_DEC       &trans
+&trans  &kp PRINTSCREEN  &kp PAGE_UP  &kp PAGE_DOWN  &ext_power EP_TOG  &out OUT_TOG    &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &bl BL_TOG       &bl BL_CYCLE     &studio_unlock   &trans
                                       &trans         &trans             &trans          &trans           &trans           &trans
             >;
         };
