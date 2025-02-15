@@ -37,10 +37,10 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&none  &kp Q                &kp W  &kp E     &kp R  &kp T        &kp DE_Z  &kp U  &kp I      &kp O    &kp BACKSPACE             &none
-&none  &kp A                &kp S  &kp D     &kp F  &kp G        &kp H     &kp J  &kp K      &kp L    &kp P                     &none
-&none  &mt LEFT_SHIFT DE_Y  &kp X  &kp C     &kp V  &kp B        &kp N     &kp M  &kp COMMA  &kp DOT  &mt RIGHT_SHIFT DE_MINUS  &none
-                                   &kp LGUI  &mo 1  &kp SPACE    &kp RET   &mo 2  &kp LCTRL
+&none  &kp Q                &kp W  &kp E     &kp R  &kp T        &kp DE_Z  &kp U            &kp I      &kp O    &kp BACKSPACE       &none
+&none  &kp A                &kp S  &kp D     &kp F  &kp G        &kp H     &kp J            &kp K      &kp L    &kp P               &none
+&none  &mt LEFT_SHIFT DE_Y  &kp X  &kp C     &kp V  &kp B        &kp N     &kp M            &kp COMMA  &kp DOT  &mt LCTRL DE_MINUS  &none
+                                   &kp LGUI  &mo 1  &kp SPACE    &kp RET   &kp RIGHT_SHIFT  &mo 2
             >;
         };
 
@@ -55,7 +55,7 @@
 &none  &kp N1      &kp N2        &kp N3        &kp N4          &kp N5          &kp N6           &kp N7           &kp N8           &kp N9         &kp N0           &none
 &none  &kp TAB     &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2    &bt BT_SEL 3    &kp LEFT         &kp DOWN         &kp UP           &kp RIGHT      &rgb_ug RGB_EFF  &trans
 &none  &kp ESCAPE  &kp DELETE    &bt BT_CLR    &kp LEFT_SHIFT  &kp LEFT_ALT    &kp DE_O_UMLAUT  &kp DE_A_UMLAUT  &kp DE_U_UMLAUT  &kp DE_ESZETT  &rgb_ug RGB_TOG  &trans
-                                 &kp LGUI      &trans          &kp SPACE       &kp RET          &trans           &kp RALT
+                                 &kp LGUI      &trans          &kp SPACE       &kp RET          &kp RALT         &trans
             >;
         };
 
@@ -70,7 +70,7 @@
 &none  &kp EXCL              &kp DE_DOUBLE_QUOTES  &kp DE_DOLLAR     &kp DE_LEFT_BRACKET  &kp RIGHT_BRACKET      &kp DE_LEFT_PARENTHESIS  &kp DE_RIGHT_PARENTHESIS  &kp DE_SLASH      &kp DE_QMARK  &kp DE_GRAVE       &none
 &none  &kp DE_AT             &kp DE_PERCENT        &kp DE_AMPERSAND  &kp DE_LESS_THAN     &kp DE_GREATER_THAN    &kp DE_LEFT_BRACE        &kp DE_RIGHT_BRACE        &kp DE_PIPE       &kp DE_EQUAL  &kp DE_HASH        &none
 &none  &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &kp K_MUTE        &kp C_VOLUME_DOWN    &kp C_VOLUME_UP        &kp DE_ASTERISK          &kp DE_PLUS               &kp DE_BACKSLASH  &kp DE_COLON  &kp DE_UNDERSCORE  &none
-                                                   &kp LGUI          &trans               &kp SPACE              &kp RET                  &trans                    &kp RALT
+                                                   &kp LGUI          &trans               &kp SPACE              &kp RET                  &kp RALT                  &trans
             >;
         };
 
