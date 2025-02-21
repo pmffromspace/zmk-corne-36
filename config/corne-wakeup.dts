@@ -1,0 +1,5 @@
+/ {
+    kscan: kscan {
+        wakeup-source;
+    };
+};
